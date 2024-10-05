@@ -31,6 +31,7 @@ But often the important part is knowing how to specify information, this is wher
 +    ports:
 +     - ${PORT}:${PORT}
 ```
+</details>
 <details> 
   <summary>Variable explanation: </summary>
 
@@ -42,7 +43,6 @@ But often the important part is knowing how to specify information, this is wher
 | `IMAGE_VERSION` | latest | The version of the specified image, can always use "latest". |
 | `PORT` | 80 | To enable network traffic over certain ports use this. |
 
-</details>
 </details>
 
 ---
@@ -72,6 +72,7 @@ services:
 +    dns:
 +      - ${DNS}
 ```
+</details>
 <details> 
   <summary>Variable explanation: </summary>
 
@@ -81,5 +82,4 @@ services:
 | `GATEWAY_ADDRESS` | Gateway of the network, remove to use default. |
 | `DNS` | Set a custom DNS server for this specific container. |
 
-</details>
 </details>
