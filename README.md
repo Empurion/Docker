@@ -22,11 +22,8 @@ services:
      - ${PORT]:${PORT}
 ```
 <details> 
-  <summary>Q1: What is the best Language in the World? </summary>
-   A1: JavaScript 
-</details>
-
-
+  <summary>Variable explanation: </summary>
+  
 `VERSION:` This indicates the docker-compose version to use.
 
 `NAME:` Specifies the name of the container
@@ -36,3 +33,4 @@ services:
 `VERSION:` The version of the specified image, can always use "latest".
 
 `PORT:` To enable network traffic over certain ports use this.
+</details>
