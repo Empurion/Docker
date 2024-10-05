@@ -1,4 +1,4 @@
-# Docker
+# $${\color{Docker}Blue}$$
 
 There's a lot of depth to be found in docker.
 
