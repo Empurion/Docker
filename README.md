@@ -33,7 +33,7 @@ But often the important part is knowing how to specify information, this is wher
 ```
 </details>
 <details> 
-  <summary>Variable explanation: </summary>
+  <summary>Variables </summary>
 
 | Variable | Example | Explanation |
 | --------- | ------ | ----------- |
@@ -74,7 +74,7 @@ services:
 ```
 </details>
 <details> 
-  <summary>Variable explanation: </summary>
+  <summary>Variables </summary>
 
 | Variable | Explanation |
 | --------- | ----------- |
