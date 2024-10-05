@@ -3,9 +3,9 @@
 There's a lot of depth to be found in docker.
 
 
-$${\color{docker}Light \space Green}$$ To truly utilize docker you want to use docker-compose.
+To truly utilize docker you want to use docker-compose.
 But often the important part is knowing how to specify information, this is where the cheat sheet comes into play.
-
+<code style="color : blue">text</code>
 
 
 ### The basic compose:
