@@ -12,6 +12,8 @@ But often the important part is knowing how to specify information, this is wher
 - [Docker volume compose](#Docker-volume-compose)
 - [Network volume compose](#Network-volume-compose)
 
+---
+
 ### Basic compose:
 > [!NOTE] 
 > Its very basic... 
@@ -43,12 +45,14 @@ But often the important part is knowing how to specify information, this is wher
 </details>
 </details>
 
+---
+
 ### Networked compose:
 > [!NOTE] 
 > Its connected!
 
 <details> 
-  <summary>Networked compose: </summary>
+  <summary>Details </summary>
 
 ```diff
 version: ${VERSION}
