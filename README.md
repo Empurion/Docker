@@ -50,6 +50,40 @@ But often the important part is knowing how to specify information, this is wher
 
 ---
 
+### Logged compose:
+> [!NOTE] 
+> Its sending logs now 
+<details> 
+  <summary>Details</summary>
+
+```diff
+version: ${VERSION}
+ 
+services:
+  container:
+    container_name: ${NAME}
+    restart: unless-stopped
+    image: ${IMAGE}:${IMAGE_VERSION}
+    ports:
+     - ${PORT}:${PORT}
++    logging:
++      driver: syslog
++      options:
++        syslog-address: "udp://${LOG_HOST}:${LOG_PORT}"
++        tag: ${NAME}
+```
+</details>
+<details> 
+  <summary>Variables </summary>
+
+| Variable | Example | Explanation |
+| --------- | ------ | ----------- |
+| `LOG_HOST` | IP-ADDRESS | The ip-address of the syslog server. |
+| `LOG_PORT` | 5514 | Port on which the applciation will send logs. |
+
+</details>
+---
+
 ### Networked compose:
 > [!NOTE] 
 > Its connected!
