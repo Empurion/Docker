@@ -21,6 +21,11 @@ services:
     ports:
      - ${PORT]:${PORT}
 ```
+<details> 
+  <summary>Q1: What is the best Language in the World? </summary>
+   A1: JavaScript 
+</details>
+
 
 `VERSION:` This indicates the docker-compose version to use.
 
