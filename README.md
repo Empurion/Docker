@@ -82,6 +82,7 @@ services:
 | `LOG_PORT` | 5514 | Port on which the applciation will send logs. |
 
 </details>
+
 ---
 
 ### Networked compose:
