@@ -4,9 +4,10 @@ There's a lot of depth to be found in docker.
 
 
 To truly utilize docker you want to use docker-compose.
-
 But often the important part is knowing how to specify information, this is where the cheat sheet comes into play.
 
+- [The basic compose](#the-basic-compose)
+- [The networked compose](#the-networked-compose)
 
 ### The basic compose:
 > [!NOTE] 
@@ -21,20 +22,20 @@ But often the important part is knowing how to specify information, this is wher
 +  container:
 +    container_name: ${NAME}
 +    restart: unless-stopped
-+    image: ${IMAGE}:${VERSION}
++    image: ${IMAGE}:${IMAGE_VERSION}
 +    ports:
 +     - ${PORT}:${PORT}
 ```
 <details> 
   <summary>Variable explanation: </summary>
 
-| Variable | Explanation |
-| --------- | ----------- |
-| `VERSION` | This indicates the docker-compose version. |
-|`NAME` | Specifies the name of the container. |
-|`IMAGE` | What image the container uses. |
-|`VERSION` | The version of the specified image, can always use "latest". |
-|`PORT` | To enable network traffic over certain ports use this. |
+| Variable | Example | Explanation |
+| --------- | ------ | ----------- |
+| `VERSION` | 2.8 | This indicates the docker-compose version. |
+| `NAME` | container | Specifies the name of the container. |
+| `IMAGE` | hello-world | What image the container uses. |
+| `IMAGE_VERSION` | latest | The version of the specified image, can always use "latest". |
+| `PORT` | 80 | To enable network traffic over certain ports use this. |
 
 </details>
 </details>
