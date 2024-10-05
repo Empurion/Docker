@@ -9,6 +9,8 @@ But often the important part is knowing how to specify information, this is wher
 
 <details> 
   <summary>Basic compose: </summary>
+
+  
 Its very basic...
 
 
@@ -41,7 +43,9 @@ services:
 ### The networked compose:
 
 <details> 
-  <summary>Basic compose: </summary>
+  <summary>Networked compose: </summary>
+
+  
 Its connected!
 
 
