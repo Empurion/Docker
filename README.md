@@ -6,10 +6,13 @@ There's a lot of depth to be found in docker.
 To truly utilize docker you want to use docker-compose.
 But often the important part is knowing how to specify information, this is where the cheat sheet comes into play.
 
-- [The basic compose](#the-basic-compose)
-- [The networked compose](#the-networked-compose)
+- [Basic compose](#Basic-compose)
+- [Networked compose](#Networked-compose)
+- [Local volume compose](#Local-volume-compose)
+- [Docker volume compose](#Docker-volume-compose)
+- [Network volume compose](#Network-volume-compose)
 
-### The basic compose:
+### Basic compose:
 > [!NOTE] 
 > Its very basic... 
 <details> 
@@ -40,7 +43,7 @@ But often the important part is knowing how to specify information, this is wher
 </details>
 </details>
 
-### The networked compose:
+### Networked compose:
 > [!NOTE] 
 > Its connected!
 
