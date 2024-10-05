@@ -102,6 +102,11 @@ services:
     image: ${IMAGE}:${VERSION}
     ports:
      - ${PORT}:${PORT}
+    logging:
+      driver: syslog
+      options:
+        syslog-address: "udp://${LOG_HOST}:${LOG_PORT}"
+        tag: ${NAME}
 
 +    networks:
 +      logging-network:
