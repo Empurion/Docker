@@ -7,6 +7,8 @@ But often the important part is knowing how to specify information, this is wher
 
 ### The basic compose:
 
+<details> 
+  <summary>Basic compose: </summary>
 The basic compose is just the minimal required and easiest way to run an container.
 
 
@@ -33,4 +35,5 @@ services:
 `VERSION:` The version of the specified image, can always use "latest".
 
 `PORT:` To enable network traffic over certain ports use this.
+</details>
 </details>
