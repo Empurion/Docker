@@ -1,0 +1,9 @@
+ version: ${VERSION}
+ 
+ services:
+  container:
+    container_name: ${NAME}
+    restart: unless-stopped
+    image: ${IMAGE}:${IMAGE_VERSION}
+    ports:
+     - ${PORT}:${PORT}
