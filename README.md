@@ -6,6 +6,9 @@ There's a lot of depth to be found in docker.
 To truly utilize docker you want to use docker-compose.
 But often the important part is knowing how to specify information, this is where the cheat sheet comes into play.
 
+> [!CAUTION]
+> I always use an number to identify my containers like: `101-reverse-proxy`.
+
 - [Basic compose](#Basic-compose)
 - [Networked compose](#Networked-compose)
 - [Local volume compose](#Local-volume-compose)
