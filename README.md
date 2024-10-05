@@ -22,12 +22,8 @@ services:
      - ${PORT]:${PORT}
 ```
 
-`VERSION: This indicates the docker-compose version to use.`
-
-`NAME: Specifies the name of the container`
-
-`IMAGE: What image the container uses.`
-
-`VERSION: The version of the specified image, can always use "latest".`
-
-`PORT: To enable network traffic over certain ports use this.`
+`VERSION:` This indicates the docker-compose version to use.
+`NAME:` Specifies the name of the container
+`IMAGE:` What image the container uses.
+`VERSION:` The version of the specified image, can always use "latest".
+`PORT:` To enable network traffic over certain ports use this.
