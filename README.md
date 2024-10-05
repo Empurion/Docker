@@ -9,7 +9,7 @@ But often the important part is knowing how to specify information, this is wher
 
 <details> 
   <summary>Basic compose: </summary>
-The basic compose is just the minimal required and easiest way to run an container.
+Its very basic...
 
 
 ```
